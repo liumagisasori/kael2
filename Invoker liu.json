@@ -1,0 +1,319 @@
+{
+  "Combo key": {
+    "Key": "F",
+    "MouseKey": "None"
+  },
+  "Refresher Behavior": "After Meteor\u002BBlast",
+  "Prepare key": {
+    "Key": "V",
+    "MouseKey": "None"
+  },
+  "Auto prepare": true,
+  "Use forges in Combo": true,
+  "Use eul in Dynamic Combo": true,
+  "Use IceWall in Dynamic Combo": true,
+  "Back to dynamic combo after custom combo": true,
+  "Min targets in eul/tornado for cataclysm": 4,
+  "Ability panel": {
+    "Enable": true,
+    "Invoke on click": true,
+    "Clickable": true,
+    "Movable": false,
+    "Pos X": 523,
+    "Pos Y": 732,
+    "Size": 47
+  },
+  "Auto SunStrike": {
+    "Enable": true,
+    "Kill Steal Only": true,
+    "Only on stunned enemies": true,
+    "Draw prediction": true,
+    "Draw prediction only when target will die after ss": true,
+    "Invoke sun strike": true,
+    "Notification if target is Killable": true,
+    "Timing for auto SunStrike (in ms)": 100,
+    "Text size": 14,
+    "X": 0,
+    "Y": 0,
+    "Draw damage from SunStrike": true,
+    "Move camera": true
+  },
+  "Smart Sphere": {
+    "Enable": true,
+    "Disable key": {
+      "Key": "None",
+      "MouseKey": "None"
+    },
+    "Check for modifiers": true,
+    "Very smart spheres": true,
+    "Hp % for VerySmartSpheres": 80,
+    "Pos X": 500,
+    "Pos Y": 500,
+    "Size": 0
+  },
+  "Auto GhostWalk": {
+    "Enable": false,
+    "Block Player Input for 2500ms before/after invis": false,
+    "Health (%)": 15,
+    "Min enemies in range": 2,
+    "Range": 1000
+  },
+  "Invoke helper": {
+    "invoker_sun_strike": {
+      "Enable": true,
+      "Invoke Key": {
+        "Key": "None",
+        "MouseKey": "None"
+      },
+      "Ignore invisibility": false,
+      "Use after Invoke": false,
+      "Use if already invoked": false,
+      "time for double click for cataclysm": 0,
+      "Use invoke if skill in slot #5": false
+    },
+    "invoker_alacrity": {
+      "Enable": true,
+      "Invoke Key": {
+        "Key": "None",
+        "MouseKey": "None"
+      },
+      "Ignore invisibility": false,
+      "Use on main hero after Invoke": false,
+      "Use if already invoked": false,
+      "Use invoke if skill in slot #5": false
+    },
+    "invoker_chaos_meteor": {
+      "Enable": true,
+      "Invoke Key": {
+        "Key": "None",
+        "MouseKey": "None"
+      },
+      "Ignore invisibility": false,
+      "Use after Invoke": false,
+      "Use if already invoked": false,
+      "Use invoke if skill in slot #5": false
+    },
+    "invoker_cold_snap": {
+      "Enable": true,
+      "Invoke Key": {
+        "Key": "None",
+        "MouseKey": "None"
+      },
+      "Ignore invisibility": false,
+      "Use after Invoke": false,
+      "Use if already invoked": false,
+      "Use invoke if skill in slot #5": false
+    },
+    "invoker_deafening_blast": {
+      "Enable": true,
+      "Invoke Key": {
+        "Key": "None",
+        "MouseKey": "None"
+      },
+      "Ignore invisibility": false,
+      "Use after Invoke": false,
+      "Use if already invoked": false,
+      "Use invoke if skill in slot #5": false
+    },
+    "invoker_emp": {
+      "Enable": true,
+      "Invoke Key": {
+        "Key": "None",
+        "MouseKey": "None"
+      },
+      "Ignore invisibility": false,
+      "Use after Invoke": false,
+      "Use if already invoked": false,
+      "Use invoke if skill in slot #5": false
+    },
+    "invoker_forge_spirit": {
+      "Enable": true,
+      "Invoke Key": {
+        "Key": "None",
+        "MouseKey": "None"
+      },
+      "Ignore invisibility": false,
+      "Use on main hero after Invoke": false,
+      "Use if already invoked": false,
+      "Use invoke if skill in slot #5": false
+    },
+    "invoker_ice_wall": {
+      "Enable": true,
+      "Invoke Key": {
+        "Key": "None",
+        "MouseKey": "None"
+      },
+      "Ignore invisibility": false,
+      "Use on main hero after Invoke": false,
+      "Use if already invoked": false,
+      "Use invoke if skill in slot #5": false
+    },
+    "invoker_tornado": {
+      "Enable": true,
+      "Invoke Key": {
+        "Key": "None",
+        "MouseKey": "None"
+      },
+      "Ignore invisibility": false,
+      "Use after Invoke": false,
+      "Use if already invoked": false,
+      "Use invoke if skill in slot #5": false
+    },
+    "invoker_ghost_walk": {
+      "Enable": true,
+      "Invoke Key": {
+        "Key": "G",
+        "MouseKey": "None"
+      },
+      "Ignore invisibility": false,
+      "Use on main hero after Invoke": true,
+      "Use if already invoked": true,
+      "Use invoke if skill in slot #5": false
+    }
+  },
+  "Combo Panel": {
+    "Enable": false,
+    "Movable": true,
+    "Pos X": 704,
+    "Pos Y": 6,
+    "Size": 115,
+    "Combo #0": {
+      "Enable": true,
+      "Key": {
+        "Key": "None",
+        "MouseKey": "None"
+      },
+      "Abilities:": {
+        "item_refresher": "true, 0",
+        "item_cyclone": "true, 1",
+        "invoker_sun_strike": "true, 2",
+        "invoker_alacrity": "true, 3",
+        "invoker_chaos_meteor": "true, 4",
+        "invoker_cold_snap": "true, 5",
+        "invoker_deafening_blast": "true, 6",
+        "invoker_emp": "true, 7",
+        "invoker_forge_spirit": "true, 8",
+        "invoker_ice_wall": "true, 9",
+        "invoker_tornado": "true, 10",
+        "invoker_ghost_walk": "true, 11"
+      },
+      "Ability index after refresher": 2
+    },
+    "Combo #1": {
+      "Enable": false,
+      "Key": {
+        "Key": "None",
+        "MouseKey": "None"
+      },
+      "Abilities:": {
+        "item_refresher": "true, 0",
+        "item_cyclone": "true, 1",
+        "invoker_sun_strike": "true, 2",
+        "invoker_alacrity": "true, 3",
+        "invoker_chaos_meteor": "true, 4",
+        "invoker_cold_snap": "true, 5",
+        "invoker_deafening_blast": "true, 6",
+        "invoker_emp": "true, 7",
+        "invoker_forge_spirit": "true, 8",
+        "invoker_ice_wall": "true, 9",
+        "invoker_tornado": "true, 10",
+        "invoker_ghost_walk": "true, 11"
+      },
+      "Ability index after refresher": 2
+    },
+    "Combo #2": {
+      "Enable": false,
+      "Key": {
+        "Key": "None",
+        "MouseKey": "None"
+      },
+      "Abilities:": {
+        "item_refresher": "true, 0",
+        "item_cyclone": "true, 1",
+        "invoker_sun_strike": "true, 2",
+        "invoker_alacrity": "true, 3",
+        "invoker_chaos_meteor": "true, 4",
+        "invoker_cold_snap": "true, 5",
+        "invoker_deafening_blast": "true, 6",
+        "invoker_emp": "true, 7",
+        "invoker_forge_spirit": "true, 8",
+        "invoker_ice_wall": "true, 9",
+        "invoker_tornado": "true, 10",
+        "invoker_ghost_walk": "true, 11"
+      },
+      "Ability index after refresher": 2
+    },
+    "Combo #3": {
+      "Enable": false,
+      "Key": {
+        "Key": "None",
+        "MouseKey": "None"
+      },
+      "Abilities:": {
+        "item_refresher": "true, 0",
+        "item_cyclone": "true, 1",
+        "invoker_sun_strike": "true, 2",
+        "invoker_alacrity": "true, 3",
+        "invoker_chaos_meteor": "true, 4",
+        "invoker_cold_snap": "true, 5",
+        "invoker_deafening_blast": "true, 6",
+        "invoker_emp": "true, 7",
+        "invoker_forge_spirit": "true, 8",
+        "invoker_ice_wall": "true, 9",
+        "invoker_tornado": "true, 10",
+        "invoker_ghost_walk": "true, 11"
+      },
+      "Ability index after refresher": 2
+    },
+    "Combo #4": {
+      "Enable": false,
+      "Key": {
+        "Key": "None",
+        "MouseKey": "None"
+      },
+      "Abilities:": {
+        "item_refresher": "true, 0",
+        "item_cyclone": "true, 1",
+        "invoker_sun_strike": "true, 2",
+        "invoker_alacrity": "true, 3",
+        "invoker_chaos_meteor": "true, 4",
+        "invoker_cold_snap": "true, 5",
+        "invoker_deafening_blast": "true, 6",
+        "invoker_emp": "true, 7",
+        "invoker_forge_spirit": "true, 8",
+        "invoker_ice_wall": "true, 9",
+        "invoker_tornado": "true, 10",
+        "invoker_ghost_walk": "true, 11"
+      },
+      "Ability index after refresher": 2
+    },
+    "Combo #-1": {
+      "Enable": false,
+      "Key": {
+        "Key": "None",
+        "MouseKey": "None"
+      },
+      "Abilities:": {
+        "item_refresher": "true, 0",
+        "item_cyclone": "true, 1",
+        "invoker_sun_strike": "true, 2",
+        "invoker_alacrity": "true, 3",
+        "invoker_chaos_meteor": "true, 4",
+        "invoker_cold_snap": "true, 5",
+        "invoker_deafening_blast": "true, 6",
+        "invoker_emp": "true, 7",
+        "invoker_forge_spirit": "true, 8",
+        "invoker_ice_wall": "true, 9",
+        "invoker_tornado": "true, 10",
+        "invoker_ghost_walk": "true, 11"
+      },
+      "Ability index after refresher": 2
+    },
+    "Dynamic combo": {
+      "Key": {
+        "Key": "None",
+        "MouseKey": "None"
+      }
+    }
+  }
+}
